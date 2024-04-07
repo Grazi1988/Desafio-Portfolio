@@ -1,9 +1,8 @@
-import React from "react"
+import Reac from "react"
 
-function Projetos() {
+function Projetos () {
     return (
         <>
-        <h2>Olá</h2>
         </>
     )
 }

@@ -1,19 +1,25 @@
 import React from "react"
-import Avatar from "./imgPort/meuavatar.png"
-import Pc from "./imgPort/pc.png"
+import Avatar from "./imgPort/eu.png"
 
 
 import * as S from "./Style"
 
-function Home () {
+function Home() {
     return (
 
         <S.SectionInicio>
-            <img src={Avatar} alt="Foto do Avatar" />
+            <div>
+                <p>Olá! Sou a Graziele</p>
+                <p>Bem vindo ao meu portfólio</p>
+                
+                <button>
+                    Saiba mais sobre mim>>>
+                </button>
+            </div>
 
-                <S.BoxInicio>
-                    <img src={Pc} alt=" Foto pc"/>
-                </S.BoxInicio>
+            <S.BoxInicio>
+                <img src={Avatar} alt="Foto avatar" />
+            </S.BoxInicio>
 
 
         </S.SectionInicio>

@@ -7,19 +7,21 @@ import react from "./imgPort/react.png"
 
 import * as S from "./Style"
 
-function Sobre() {
+function Sobre () {
     return (
         <S.MainSobre>
             <S.SectionDoSobre>
-                <h1></h1>
+                <h2>Oi, um pouquinho sobre mim</h2>
 
                 <S.Div>
                     <img src={Perfil} alt="Foto perfil" />
-                    <h2>Sou a Graziele Gonçalves, tenho 35 anos, trabalhei 14 anos no ramo de material hospitalar.
-                    Fiz vários cursos e não tinha me encontrado, atualmente estou estudando frond-end. 
+                    
+                    <p>Me chamo Graziele Gonçalves.Tenho 35 anos, trabalhei 14 anos no ramo de material hospitalar.
+                    Fiz vários cursos como estética, depilação, designer de sobrancelhas, manicure, etc. E não tinha me encontrado, atualmente estou estudando frond-end. 
                     Entrei no curso por curiosidade e acabei me apaixonando.
                     O VNW me deu essa oportunidades de conhecer essa área que nem imaginava como era.
-                    Estou muito feliz.</h2>
+                    Estou muito feliz.
+                    </p>
                 </S.Div>
             </S.SectionDoSobre>
 
