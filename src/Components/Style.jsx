@@ -78,7 +78,6 @@ img {
 //Estilização Sobre
 
 export const MainSobre = styled.div`
-    height: 25%;
     background-color: black;
     color: white;
     display: flex;
@@ -88,13 +87,14 @@ export const MainSobre = styled.div`
 `
 
 export const SectionDoSobre = styled.div`
-    height: 75vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
 h2 {
+    
     color:  #cc00ff; 
 }   
 
@@ -110,7 +110,7 @@ export const Div = styled.div`
 p {
     text-align: center; 
     max-width: 60vw; 
-    font-size: 30px;
+    font-size: 20px;
 }
 
 `
