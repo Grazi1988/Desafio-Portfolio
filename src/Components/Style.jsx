@@ -124,7 +124,7 @@ img{
 h3{
     display: flex;
     justify-content: center;
-    background-repeat: no-repeat;
+   
 }
 `
 //Estilização Projetos
