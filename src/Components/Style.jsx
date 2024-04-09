@@ -128,9 +128,141 @@ h3{
 }
 `
 //Estilização Projetos
+export const MainProj = styled.main`
+    width: 100%;
+    height:72vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-block: 1rem;
+    background-color: black;
+
+`
+export const SectionProj = styled.section`
+    width: 25vw;
+    border: solid white 3px;
+    border-radius: 40px;
+    margin: 1rem;
+
+img{
+    display: none;
+}
+&:hover {
+    img{
+    display: initial;
+}
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+`
+
+export const Card = styled.section`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+img{
+    width: 10vw;
+}
+
+h2{
+    color:  #cc00ff;
+}
+
+h3{
+    color:  #cc00ff;
+}
+
+
+`
+
+export const DivCard2 = styled.div` 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+img{
+    width: 10vw;
+
+}
+
+h2{
+    color: violet;
+}
+
+h3{
+    color: violet;
+}
+
+`
+
+export const Card3 = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+img{
+    width: 10vw;
+}
+
+h3{
+    color: violet;
+}
+    
+`
+export const Card4 = styled.div`
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+
+img{
+    width: 10vw;
+}
+
+h3{
+    color: violet;
+}
+`
+export const Card5 = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+img{
+    width: 10vw;
+}
+
+h3{
+    color: violet;
+}
+`
+export const Card6 = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+img{
+    width: 10vw;
+    
+    
+}
+
+
+
+h3{
+    color: violet;
+}
+`
+
 
 //Estilização Contatos
-
 export const Container = styled.div`
     height: 75vh;
     background-color: black;
@@ -144,23 +276,22 @@ export const SectionDoCont = styled.section`
     justify-content: center;
     gap: 1.5rem;
 
-h2, p{
-
-    color: white;
+h2, p {
+     color: white;
+     font-size: 1.5rem;
 }
 
 `
 
 export const DivCont = styled.div`
 a {
-        margin: 0 10px;
-        transition: transform 0.3s ease;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
 }
 `
 
 
- //Estilização do Footer
-
+//Estilização do Footer
 export const SectionDoFooter = styled.footer`
     margin: 1rem 0 1rem 0;
     color: white;
